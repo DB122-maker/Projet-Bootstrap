@@ -1,0 +1,310 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #888;
+  line-height: 30px;
+  text-align: center;
+}
+
+strong {
+  font-weight: 600;
+}
+
+a,
+a:hover,
+a:focus {
+  color: #9b59b6;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+h1,
+h2 {
+  margin-top: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 38px;
+  font-weight: 300;
+  color: #555;
+  line-height: 50px;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  color: #555;
+  line-height: 30px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.medium-paragraph {
+  font-size: 17px;
+  line-height: 32px;
+}
+
+.colored-text {
+  color: #9b59b6;
+}
+
+::-moz-selection {
+  background: #9b59b6;
+  color: #fff;
+  text-shadow: none;
+}
+::selection {
+  background: #9b59b6;
+  color: #fff;
+  text-shadow: none;
+}
+
+/***** General style, all sections *****/
+
+.section-container {
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
+
+.section-container-gray-bg {
+  background: #f8f8f8;
+}
+
+.section-container-image-bg,
+.section-container-image-bg h2,
+.section-container-image-bg h3 {
+  color: #fff;
+}
+
+.section-container-image-bg .divider-1 span {
+  border-color: #fff;
+}
+
+.section-description {
+  margin-top: 60px;
+  padding-bottom: 10px;
+}
+
+.section-description p {
+  margin-top: 20px;
+  padding: 0 120px;
+}
+.section-container-image-bg .section-description p {
+  opacity: 0.8;
+}
+
+.section-bottom-button {
+  padding-top: 60px;
+}
+
+.btn-link-2 {
+  display: inline-block;
+  height: 50px;
+  margin: 0 5px;
+  padding: 0 28px;
+  background: #333;
+  background: rgba(0, 0, 0, 0.2);
+  border: 0;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 48px;
+  color: #fff;
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+.btn-link-2:hover,
+.btn-link-2:focus {
+  background: #333;
+  background: rgba(0, 0, 0, 0.4);
+  outline: 0;
+  color: #fff;
+  box-shadow: none;
+}
+
+/***** Divider *****/
+
+.divider-1 span {
+  display: inline-block;
+  width: 200px;
+  border-bottom: 1px dashed #ccc;
+}
+
+/***** Top menu *****/
+
+.navbar {
+  background: #444;
+}
+.navbar.navbar-no-bg {
+  background: #444;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.navbar-dark .navbar-nav {
+  font-size: 15px;
+  color: #fff;
+  font-weight: 600;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+  color: rgba(255, 255, 255, 0.8);
+  border: 0;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #fff;
+}
+.navbar-dark .navbar-nav .nav-link:focus {
+  color: #fff;
+  outline: 0;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/***** Top content *****/
+
+.top-content {
+  padding: 400px 0;
+  background-image: url("http://www.hdcarwallpapers.com/walls/peugeot_e_legend_concept_4k_2-HD.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.top-content .text {
+  color: #fff;
+}
+
+.top-content .text h1 {
+  margin-top: 25px;
+  color: #fff;
+}
+
+.top-content .description {
+  margin: 30px 0 10px 0;
+}
+
+.top-content .description p {
+  opacity: 0.8;
+}
+
+.top-content .top-big-link {
+  margin-top: 45px;
+}
+
+/***** About us *****/
+
+.about-us-box {
+  margin-top: 100px;
+}
+
+.about-us-box-text {
+  padding-right: 30px;
+  text-align: left;
+}
+
+.about-us-box-text h3 {
+  margin-top: 0;
+}
+
+.about-us-box-text .medium-paragraph {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.about-us-box-text a {
+  border-bottom: 1px dashed #9b59b6;
+}
+.about-us-box-text a:hover,
+.about-us-box-text a:focus {
+  border: 0;
+}
+
+.about-us-box-img img {
+  border-radius: 4px;
+}
+
+/***** Call to action *****/
+
+.call-to-action-container .section-bottom-button {
+  padding-top: 30px;
+}
+
+/***** Portfolio *****/
+
+.portfolio-box {
+  padding-top: 30px;
+  text-align: left;
+}
+
+.portfolio-box-image {
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.portfolio-box-image img {
+  transition: all 0.8s;
+}
+
+.portfolio-box-image:hover img {
+  transform: scale(1.25);
+}
+
+.portfolio-box h3 {
+  margin-top: 30px;
+}
+.portfolio-box h3 a {
+  color: #555;
+}
+
+/***** Footer *****/
+
+footer {
+  padding: 40px 0 0 0;
+  background: #444;
+  color: #aaa;
+  text-align: left;
+}
+
+.footer-left a {
+  color: #ddd;
+  border-bottom: 1px dashed #ddd;
+}
+.footer-left a:hover,
+.footer-left a:focus {
+  color: #ddd;
+  border: 0;
+}
+
+.footer-right {
+  text-align: right;
+}
+
+.footer-right a {
+  margin: 0 6px;
+  font-size: 32px;
+  color: #aaa;
+}
+.footer-right a:hover,
+.footer-right a:focus {
+  color: #eee;
+}
+
+.footer-bottom {
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+.footer-bottom a {
+  font-size: 32px;
+  color: #666;
+  line-height: 40px;
+}
+
+.footer-bottom a:hover,
+.footer-bottom a:focus {
+  color: #888;
+}
